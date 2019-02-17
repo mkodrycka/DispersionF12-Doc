@@ -1,0 +1,57 @@
+# Introduction 
+
+Text :math:`a^2+ b^2= c^2` text.
+
+
+:math:`‹LaTeX math expression›`
+
+.. math::
+
+   1/u + 1/v = 1/F_a
+
+.. math::
+
+   \frac{1}{u}+\frac{1}{v} = \frac{1}{F}
+
+
+Symmetry-adapted perturbation theory (SAPT) provides a means of directly
+computing the noncovalent interaction between two molecules, that is, the
+interaction energy is determined without computing the total energy of the
+monomers or dimer. In addition, SAPT provides a decomposition of the
+interaction energy into physically meaningful components: *i.e.*,
+electrostatic, exchange, induction, and dispersion terms. In SAPT, the 
+Hamiltonian of the dimer is partitioned into contributions from each 
+monomer and the interaction.
+
+.. math:: H=F_A+W_A+F_B+W_B+V
+
+Here, the Hamiltonian is written as a sum of the usual monomer Fock
+operators, :math:`F`, the fluctuation potential of each monomer, :math:`W`, and the
+interaction potential, :math:`V`. The monomer Fock operators, :math:`F_A+F_B`, are
+treated as the zeroth-order Hamiltonian and the interaction energy is
+evaluated through a perturbative expansion of :math:`V`, :math:`W_A`, and :math:`W_B`. 
+Through first-order in :math:`V`, electrostatic and exchange interactions are
+included; induction and dispersion first appear at second-order in :math:`V`. For
+a complete description of SAPT, the reader is referred to the excellent
+review by Jeziorski, Moszynski, and Szalewicz .
+
+
+# List
+
+This is a samle list
+* List item 1
+* List item 2
+
+
+# Samle C Code
+
+```C
+#include<stdio.h>
+int main()
+{
+        printg("Hello World!");
+        return 0;
+}
+
+```
+
