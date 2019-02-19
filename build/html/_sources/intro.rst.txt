@@ -1,6 +1,8 @@
 Introduction 
 ==================================================================
 
+See :cite:`Strunk1979` for an introduction to stylish blah, blah...
+
 In SAPT (Symmetry-Adapted Perturbation Theory), second-order dispersion 
 :math:`E_{disp}^{(20)}` and exchange dispersion :math:`E_{exch-disp}^{(20)}` energies 
 describe inter-molecular correlation effects, constituting a reliable tool 
