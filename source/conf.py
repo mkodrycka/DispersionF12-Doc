@@ -15,7 +15,10 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+<<<<<<< HEAD
 #from recommonmark.parser import CommonMarkParser
+=======
+>>>>>>> 69f23f23b3800b5d9d0412a4350b2886f61de03a
 
 # -- Project information -----------------------------------------------------
 
@@ -50,8 +53,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    'sphinxcontrib.bibtex', 
-#    'recommonmark'            #Markdown
+    'sphinxcontrib.bibtex',
 ]
 
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
