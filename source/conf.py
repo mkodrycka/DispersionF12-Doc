@@ -15,10 +15,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-<<<<<<< HEAD
-#from recommonmark.parser import CommonMarkParser
-=======
->>>>>>> 69f23f23b3800b5d9d0412a4350b2886f61de03a
 
 # -- Project information -----------------------------------------------------
 
