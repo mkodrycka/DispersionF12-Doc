@@ -13,11 +13,11 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- Read the Docs stuff ---------------------------------------------------
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # -- Project information -----------------------------------------------------
 
@@ -41,10 +41,10 @@ release = '2019'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-if on_rtd:
-   extensions = ['sphinx.ext.todo', 'sphinx.ext.imgmath', 'sphinx.ext.graphviz']
-else:
-    extensions = [
+#if on_rtd:
+#   extensions = ['sphinx.ext.todo', 'sphinx.ext.imgmath', 'sphinx.ext.graphviz']
+#else:
+extensions = [
         'sphinx.ext.autodoc',
         'sphinx.ext.doctest',
         'sphinx.ext.intersphinx',
@@ -55,7 +55,7 @@ else:
         'sphinx.ext.viewcode',
         'sphinx.ext.githubpages',
        'sphinxcontrib.bibtex',
-   ]
+]
 
 #mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
 #mathjax_config = {
@@ -101,11 +101,11 @@ pygments_style = None
 # a list of builtin themes.
 #
 
-if on_rtd:
-   html_theme = 'default'
+#if on_rtd:
+#   html_theme = 'default'
 
-else:
-   html_theme = 'sphinx_rtd_theme'
+#else:
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
