@@ -42,7 +42,7 @@ release = '2019'
 # ones.
 
 if on_rtd:
-   extensions = ['sphinx.ext.todo', 'sphinx.ext.pngmath', 'sphinx.ext.mathjax', 'sphinx.ext.graphviz']
+   extensions = ['sphinx.ext.todo', 'sphinx.ext.imgmath', 'sphinx.ext.graphviz']
 else:
     extensions = [
         'sphinx.ext.autodoc',
